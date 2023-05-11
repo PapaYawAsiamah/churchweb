@@ -1,0 +1,66 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Home from "../components/Home";
+---
+
+<style>
+  .Give {
+    display: flex;
+    padding: 100px 50px;
+  }
+  .GiveText {
+    width: 50%;
+  }
+  .btn {
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+  .GivHead {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 100;
+  }
+  .txt {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+  }
+  .btn button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: inherit;
+    cursor: pointer;
+  }
+  .btn button:hover {
+    background-color: #478778;
+  }
+  @media only screen and (max-width: 1024px) {
+    .Give {
+      display: flex;
+      flex-direction: column;
+    }
+    .GiveText {
+      width: 100%;
+    }
+  }
+</style>
+
+<Layout title="Home">
+  <Home />
+  <div class="Give">
+    <div class="GiveText">
+      <h1 class="GivHead">Online Giving</h1>
+      <p class="txt">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, aut
+        totam, nesciunt necessitatibus enim ut eius harum maxime eligendi et
+      </p>
+    </div>
+    <div class="btn">
+      <a href="/Donate">
+      <button> Give</button>
+    </a>
+    </div>
+  </div>
+</Layout>

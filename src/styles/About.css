@@ -1,0 +1,21 @@
+.image{
+    border-radius: 50%;
+    float: left;
+    width: 20%;
+    margin: 40px;
+    height: 400px;
+    
+}
+.text{
+    margin: 100px 40px;
+    color: #478778;
+}
+@media only screen and (max-width: 1024px) {
+    .image{
+        margin: 20px;
+        width: 40%;
+        margin: 40px;
+        height: 400px;
+        
+    }
+}

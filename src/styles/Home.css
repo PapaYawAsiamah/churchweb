@@ -1,0 +1,180 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+.banner img {
+  width: 100%;
+
+  height: 550px;
+  /* object-fit: cover; */
+  /* object-position: bottom; */
+}
+.Verse {
+  background-color: #478778;
+  /* display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center; */
+  width: 100%;
+  padding-right: 20%;
+  padding-left: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+
+  /* flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; */
+}
+.verse {
+  /* margin-left: 40%;
+    margin-right: 20%; */
+  border-left: 4px solid white;
+  /* padding: 20px; */
+  margin: 20px 10px;
+  padding: 10px;
+ 
+}
+
+.Book {
+  /* text-align: center; */
+  margin: 20px;
+}
+
+.Location{
+  
+  margin: 2%;
+ }
+ 
+ .locCard{
+      width: 45%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 2%;
+      height: 300px;
+     }
+ 
+ .image img{
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   
+ 
+  
+  }
+ 
+ .title{
+  
+   text-align: center;
+   padding: 10px;
+   
+  }
+ 
+ h1{
+   font-size: 20px;
+  }
+ 
+ .des{
+   padding: 3px;
+   text-align: center;
+  
+   padding-top: 10px;
+         border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+ .locHeader{
+   text-align: center;
+   margin-top: 20px;
+   font-size: 50px;
+   font-weight: 100;
+  
+
+ }
+ @media only screen and (max-width: 1024px) {
+  .Verse {
+      background-color: #478778;
+      /* display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        align-items: center; */
+      width: 100%;
+      padding-right: 10%;
+      padding-left: 10%;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+    
+      /* flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px; */
+    }
+    .Location{
+      display: flex;
+      flex-direction: column;
+    }
+    .locCard{
+      width: 100%;
+      margin: 20px 0;
+      
+    }
+    .locHeader{
+      font-size: 40px;
+    }
+}
+.CardCon {
+  width: 100%;
+  min-height: 80vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 90px;
+}
+.content-section {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.content-section .card {
+  flex: 1;
+  margin: 20px 20px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 2);
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.content-section .card h2 {
+  margin: 15px 0px;
+  font-size: 28px;
+  color: #478778;
+  font-family: sans-serif;
+}
+.content-section .card p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 913px) {
+  .content-section {
+    flex-direction: column;
+  }
+  .content-section .card {
+    width: 100%;
+     margin: 20px 0px;
+  }
+  .CardCon{
+    padding: 0;
+  }
+}
+.MinisDesc{
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.3rem;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+    font-weight: 600;
+}
+a:hover {
+	color: #ffff8f;
+}
+.head{
+    position: sticky;
+    top: 72px;
+    background-color: #478778;
+}
+@media only screen and (max-width: 1024px) {
+   
+}
